@@ -7,6 +7,34 @@
     </title>
     <link rel="stylesheet" href="styles.css">
     <style>
+
+    /* ... التنسيقات القديمة مثل .profile-image و .cta-button ... */
+    
+    /* تنسيق خاص بقائمة الفصول الجديدة */
+    .chapter-archive {
+        list-style: none; /* إزالة النقاط أو الأرقام الافتراضية */
+        padding: 0;
+        text-align: right; 
+    }
+
+    .chapter-archive li {
+        border-bottom: 1px dashed #eee; /* خط خفيف للفصل بين الفصول */
+        padding: 10px 0;
+        font-size: 1.1em;
+    }
+
+    .chapter-archive li a {
+        text-decoration: none; /* إزالة الخط تحت الرابط */
+        color: #333; /* لون نص القائمة */
+        display: block; /* لجعل مساحة الضغط أكبر */
+        padding-right: 10px;
+    }
+
+    .chapter-archive li a:hover {
+        color: #007bff; /* تغيير اللون عند مرور مؤشر الفأرة */
+        background-color: #f9f9f9;
+    }
+    
         /* تنسيق خاص للصفحة الرئيسية */
         .landing-container {
             width: 90%;
@@ -109,6 +137,7 @@
 
 </body>
 </html>
+
 
 
 
